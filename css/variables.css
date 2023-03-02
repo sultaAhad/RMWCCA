@@ -1,0 +1,42 @@
+/* font family includes */
+@font-face {
+	src: url(../fonts/Poppins-Medium.ttf);
+	font-family: "Poppins-Medium";
+}
+
+@font-face {
+	src: url(../fonts/Poppins-SemiBold.ttf);
+	font-family: "Poppins-SemiBold";
+}
+
+@font-face {
+	src: url(../fonts/Poppins-Bold.ttf);
+	font-family: "Poppins-Bold";
+}
+
+@font-face {
+	src: url(../fonts/Poppins-Regular.ttf);
+	font-family: "Poppins-Regular";
+}
+@font-face {
+	src: url(../fonts/Poppins-Light.ttf);
+	font-family: "Poppins-Light";
+}
+@font-face {
+	src: url(../fonts/EUROSTILE-LT-BOLD.TTF);
+	font-family: "EUROSTILE-LT-BOLD";
+}
+
+@font-face {
+	src: url(../fonts/EUROSTILE-LT-MEDIUM.TTF);
+	font-family: "EUROSTILE-LT-MEDIUM";
+}
+
+:root {
+	--background-color: #025043;
+	--bold-font-family: "EUROSTILE-LT-BOLD";
+	--medium-font-family: "EUROSTILE-LT-MEDIUM";
+	--regular-font-family: "Poppins-Regular";
+	--mediumpoppins-font-family: "Poppins-Medium";
+	--semibold-font-family: "Poppins-SemiBold";
+}
