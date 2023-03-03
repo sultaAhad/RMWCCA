@@ -1,0 +1,46 @@
+section.education {
+	padding: 50px 0 0px 0;
+}
+.education-wrapper-img img {
+	border-radius: 10px;
+}
+.education-wrapper-img img {
+	height: 585px;
+	width: 100%;
+	object-fit: fill;
+}
+.proposed-para-about.text-center {
+	padding: 40px 0 0;
+}
+.proposed-para-about.text-center p {
+	line-height: 2;
+}
+.our-heading h6 {
+	padding-right: 50px;
+	line-height: 1.5;
+}
+.education .educationtitle{
+	background: #c9dad7;
+	text-align: center;
+	padding: 15px;
+}
+.education .educationtitle h5{
+	color: var(--background-color);
+	margin: 0px;
+}
+.education .card {
+    border-radius: 1rem;
+	box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 60%);
+	-webkit-box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 14%);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(59, 49, 49, 0.6);
+}
+.education p.card-text span {
+    color: var(--background-color);
+}
+.education .card-img, .card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+.education .card img {
+    height: 260px;
+}
