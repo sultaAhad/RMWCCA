@@ -27,8 +27,7 @@
                     <h1>Rocky Mountain</h1>
                     <h2>Striving To Unify And Protect Our Industry Through Representation, Experience, And Education.
                     </h2>
-                    <a class="btn green" href="">Get Help Now <span> <i class="fa fa-arrow-right"
-                                aria-hidden="true"></i>
+                    <a class="btn green" href="">Get Help Now <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
                         </span></a>
                 </div>
             </div>
@@ -90,8 +89,7 @@
                         wall and ceiling industry.</p>
                     <div class="para-img">
                         <img src="img/advancelogo.png" class="img-fluid" alt="">
-                        <a class="btn green" href="">Learn More <span> <i class="fa fa-arrow-right"
-                                    aria-hidden="true"></i>
+                        <a class="btn green" href="">Learn More <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </span></a>
                     </div>
                 </div>
@@ -113,7 +111,7 @@
                 <div class="service-wrapper-detail">
                     <div class="heading-main-service">
                         <h3>Educational</h3>
-                        <img src="img/service.png" class="img-fluid" alt="">
+                        <img src="img/service1.png" class="img-fluid" alt="">
                     </div>
                     <p>RMWCCA will provide classes from a variety of well-established industry experts. We will focus on
                         education that is By the Book.</p>
@@ -121,7 +119,7 @@
                 <div class="service-wrapper-detail">
                     <div class="heading-main-service">
                         <h3>Magazine</h3>
-                        <img src="img/service1.png" class="img-fluid" alt="">
+                        <img src="img/service.png" class="img-fluid" alt="">
                     </div>
                     <p>RMWCCA will provide classes from a variety of well-established industry experts. We will focus on
                         education that is By the Book.</p>
@@ -194,15 +192,206 @@
         </div>
     </div>
 </section>
-<section class="second">
+<section class="industry-partner">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">asdasdas</div>
-            <div class="col-lg-6">
+            <div class="col-lg-9 mx-auto ">
+                <div class="service-heading industry-product text-center">
+                    <h4>Industry Partners </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet mauris sit amet venenatis cursus. Fusce quis libero orci. Donec posuere lacus id felis hendrerit dapibus. Mauris luctus lacus scelerisque nunc mollis viverra.
+                    </p>
+                    <!-- <p>Pellentesque ultricies sed tellus vitae mollis. Donec quis volutpat leo, nec imperdiet erat. Aliquam sollicitudin congue vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <div class="industry-slider1">
+                    <div class="row industry-slider">
+                        <div class="col-lg-4">
+                            <div class="videos">
+                                <img src="img/slider.png" class="img-fluid" alt="">
+                                <div class="video-wrapper">
+                                    <img src="img/video.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="videos">
+                                <img src="img/slider1.png" class="img-fluid" alt="">
+                                <div class="video-wrapper">
+                                    <img src="img/video.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="videos">
+                                <img src="img/slider2.png" class="img-fluid" alt="">
+                                <div class="video-wrapper">
+                                    <img src="img/video.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="videos">
+                                <img src="img/slider2.png" class="img-fluid" alt="">
+                                <div class="video-wrapper">
+                                    <img src="img/video.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="education">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="education-heading text-center">
+                    <h4>Education </h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9 mx-auto">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card-wrapper">
+                            <img src="img/workman.png" class="img-fluid" alt="">
+                            <div class="card-heading">
+                                <h5>EDI</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card-wrapper">
+                            <img src="img/wordstudy.png" class="img-fluid" alt="">
+                            <div class="card-heading">
+                                <h5>By The Book</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-6 mx-auto">
+                <div class="education-btn ">
+                    <a class="btn green" href="">Learn More<span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="Magazine">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="education-heading Magazine">
+                    <h4>Straight & True Magazine </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet mauris sit amet venenatis cursus. Fusce quis libero orci. Donec posuere lacus id felis hendrerit dapibus. Mauris luctus lacus scelerisque nunc mollis viverra. Pellentesque ultricies sed tellus vitae mollis. Donec quis volutpat leo, nec imperdiet erat. Aliquam sollicitudin congue vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+                <div class="para-img1">
+                    <a class="btn green" href="">Learn More <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </span></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="img/flip.png" class="img-fluid" alt=""></div>
                         <div class="swiper-slide"><img src="img/flip1.png" class="img-fluid" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contect-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="education-heading contect-main-heading text-center">
+                    <h4>Contact Us </h4>
+                </div>
+            </div>
+        </div>
+        <div class="contect-us-main">
+            <div class="row">
+                <div class="col-lg-9 p-0">
+                    <form action="">
+                        <div class="form-contect-wrapper">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-outline ">
+                                        <input type="text" id="form1Example1" placeholder="First Name" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-outline ">
+                                        <input type="text" id="form1Example1" placeholder="Last Name" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-outline ">
+                                        <input type="email" id="form1Example1" placeholder="Email" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-outline ">
+                                        <input type="number" id="form1Example1" placeholder="Phone" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-outline">
+                                        <textarea class="form-control" placeholder="Your Message" id="textAreaExample" rows="4"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="para-img1 contect-btn">
+                                        <a class="btn green" href="">Submit <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                            </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 p-0">
+                    <div class="contect-img">
+                        <img src="img/workwoman.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="straight-true-magazine">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="end-sect-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-10">
+                            <h3>Straight & True Magazine 2023</h3>
+                            <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum...</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="para-img1 end-btn">
+                                <a class="btn green" href="">Magazine <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

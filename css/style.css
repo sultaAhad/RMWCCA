@@ -10,7 +10,7 @@ html {
 body {
 	height: 100%;
 	overflow: hidden;
-	background-color: #f2f2f2;
+	background-color: #ffffff;
 }
 h1 {
 	font-family: var(--bold-font-family);
@@ -65,7 +65,7 @@ p {
 	font-size: 1rem;
 	background-size: 300%;
 	transition: all 0.6s;
-	width: 30%;
+	width: 180px;
 	height: 50px;
 	font-family: "EUROSTILE-LT-MEDIUM";
 }
@@ -83,7 +83,7 @@ p {
 	box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.75);
 }
 .btn i {
-	margin-left: 10px;
+	margin-left: 20px;
 }
 a {
 	cursor: pointer;
@@ -100,7 +100,12 @@ a:hover {
 	outline: 0;
 	box-shadow: none;
 }
-
+section.main-heading-all {
+	padding: 100px 0 0 0;
+}
+.all-main-heading-website.text-center h1 {
+	color: var(--background-color);
+}
 :focus-visible {
 	outline: none;
 }
@@ -129,7 +134,8 @@ a:hover {
 }
 
 .swiper-slide.swiper-slide-visible.swiper-slide-active {
-	margin-right: -60px;
+	margin-right: -34px;
+	margin-top: 7px;
 }
 .swiper-slide-shadow {
 	display: none;
@@ -276,6 +282,9 @@ li.phone a {
 li.phone a i {
 	color: #fff !important;
 }
+.banner-headinf {
+	margin-left: 20px;
+}
 .social-icon1 ul {
 	display: flex;
 	align-items: center;
@@ -370,6 +379,12 @@ ul.dropdown-second li {
 }
 .email p {
 	width: 40px;
+}
+.service-heading.text-center h4 {
+	margin-bottom: 40px;
+}
+section.service {
+	padding: 20px 0 60px 0;
 }
 .head h5 {
 	line-height: 3;
@@ -581,4 +596,174 @@ section.about-us {
 	color: #fff;
 	font-size: 13px;
 	margin-bottom: 4px;
+}
+.videos {
+	position: relative;
+	margin: 0px 10px;
+}
+.video-wrapper {
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+section.industry-partner {
+	background: linear-gradient(
+		180deg,
+		rgba(28, 116, 104, 1) 1%,
+		rgba(25, 79, 72, 1) 77%
+	);
+	padding: 60px 0 80px 0;
+}
+
+.industry-slider1 .slick-next:before {
+	content: "";
+	background-image: url(../img/arrowslider.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: -30px;
+	margin: -14px 0;
+}
+.industry-slider1 .slick-prev:before {
+	content: "";
+	background-image: url(../img/arrowslider1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: -30px;
+	margin: -14px 0;
+}
+.industry-slider1 {
+	position: relative;
+}
+.service-heading.industry-product.text-center h4 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.service-heading.industry-product.text-center {
+	margin-bottom: 40px;
+}
+.videos {
+	cursor: pointer;
+}
+.service-heading.industry-product.text-center p {
+	color: #fff;
+	line-height: 1.5;
+}
+section.education {
+	padding: 90px 0 70px 0;
+}
+.education-heading.text-center p {
+	line-height: 1.5;
+	padding: 0 70px;
+	margin: 20px 0 40px 0;
+}
+.education-btn {
+	text-align: center !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px 0;
+}
+.card-wrapper {
+	position: relative;
+}
+.card-heading {
+	text-align: center;
+	margin: 20px 0;
+}
+.card-wrapper {
+	position: relative;
+	background: #fff;
+	border-radius: 20px;
+	margin: 0 10px;
+	box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 60%);
+	-webkit-box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 14%);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(59, 49, 49, 0.6);
+}
+.card-heading {
+	text-align: center;
+	padding: 20px 0;
+	margin: 0;
+}
+.card-heading h5 {
+	margin: 0;
+	color: #025043;
+}
+section.Magazine {
+	padding: 70px 0;
+	background: #f9fbfa;
+}
+.education-heading.Magazine p {
+	margin: 30px 0;
+}
+section.contect-us {
+	padding: 70px 0 0px 0;
+}
+.contect-us-main {
+	padding: 80px 80px;
+	background: #f5f6f6;
+	border-radius: 20px;
+	position: relative;
+}
+.form-outline input {
+	margin-bottom: 20px;
+	padding: 10px 18px;
+}
+.form-outline input::placeholder {
+	margin-bottom: 20px;
+	font-family: "Poppins-Regular";
+	font-size: 16px;
+	color: #6c757d;
+}
+.form-outline textarea::placeholder {
+	margin-bottom: 20px;
+	font-family: "Poppins-Regular";
+	font-size: 16px;
+	color: #6c757d;
+}
+.form-outline textarea#textAreaExample {
+	resize: none;
+}
+.para-img1.contect-btn {
+	margin-top: 30px;
+}
+.education-heading.contect-main-heading.text-center {
+	margin-bottom: 50px;
+}
+.contect-img {
+	position: absolute;
+	bottom: 0;
+}
+.contect-img img {
+	height: 480px;
+	width: 100%;
+	object-fit: cover;
+}
+.end-sect-wrapper {
+	padding: 30px 80px;
+	box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 60%);
+	-webkit-box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 14%);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(59, 49, 49, 0.6);
+	border-radius: 20px;
+	background-color: #fff;
+}
+.end-sect-wrapper p {
+	margin: 0;
+}
+.end-sect-wrapper h3 {
+	color: var(--background-color);
+}
+section.straight-true-magazine {
+	padding: 90px 0 90px 0;
 }

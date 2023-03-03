@@ -1,0 +1,106 @@
+section.about-us {
+	padding: 50px 0 40px 0;
+}
+.about-us-wrapper-img img {
+	border-radius: 10px;
+}
+.about-us-wrapper-img img {
+	height: 585px;
+	width: 100%;
+	object-fit: fill;
+}
+.proposed-para-about.text-center {
+	padding: 40px 0 0;
+}
+.proposed-para-about.text-center p {
+	line-height: 2;
+}
+.our-heading h6 {
+	padding-right: 50px;
+	line-height: 1.5;
+}
+.ourmission img {
+	width: 100%;
+	box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 60%);
+	-webkit-box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 14%);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(59, 49, 49, 0.6);
+	border-radius: 30px;
+}
+section.our-mission {
+	padding-bottom: 80px;
+}
+h1.laws {
+	color: #004d25;
+	/* text-align: center; */
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+.main-wrapper-laws {
+	padding: 40px 50px;
+	box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 60%);
+	-webkit-box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 14%);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(59, 49, 49, 0.6);
+	border-radius: 20px;
+}
+.para-heading-laws h5 {
+	margin-bottom: 25px;
+}
+.para-heading-laws p {
+	color: #707070;
+}
+.multi-section-para-heading h6 {
+	color: #242424;
+	font-family: "Poppins-SemiBold";
+	line-height: 1.5;
+}
+.multi-section-para-heading h6 span {
+	color: #707070;
+	font-family: var(--regular-font-family);
+}
+.section1-heading {
+	margin-left: 40px;
+}
+.section1-heading ul li {
+	list-style: disc;
+	margin-left: 50px;
+}
+.section1-heading ul li p {
+	color: #707070;
+	font-family: var(--regular-font-family);
+	font-size: 14px;
+	margin: 9px 0;
+}
+.detail-email-phone {
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+}
+.details h6 {
+	color: #fff;
+	font-family: var(--bold-font-family);
+	font-size: 16px;
+}
+.detail-email-phone h6 {
+	color: #fff;
+	font-family: var(--regular-font-family);
+	font-size: 9px;
+}
+.detail-email-phone i {
+	color: #fff;
+}
+
+.main-div-icon-wrapper {
+	margin-left: 18px;
+	margin-top: 7px;
+}
+.details {
+	width: 100%;
+}
+.details img {
+	width: 100%;
+	height: 240px;
+	object-fit: scale-down;
+}
+section.bi-laws {
+	padding-bottom: 70px;
+}
