@@ -135,7 +135,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="central-service-img">
-                    <img src="img/building.png" class="img-fluid" alt="">
+                <img src="img/building.png" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-4">

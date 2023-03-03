@@ -69,10 +69,8 @@
                                 </li>
                                 <li class="normal-nav-items link"><a class="menu" href="service.php">Services</a>
                                 </li>
-                                <li class="normal-nav-items link"><a class="menu" href="contactus.php">Business
+                                <li class="normal-nav-items link"><a class="menu" href="business.php">Business
                                         Solution</a>
-                                </li>
-                                <li class="normal-nav-items link"><a class="menu" href="contactus.php">Membership</a>
                                 </li>
                                 <li class="normal-nav-items link"><a class="menu" href="contactus.php">Membership</a>
                                 </li>
@@ -103,7 +101,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="normal-nav-items link"><a class="menu" href="contactus.php">Education</a>
+                                <li class="normal-nav-items link"><a class="menu" href="education.php">Education</a>
                                 </li>
                                 <li class="normal-nav-items link"><a class="menu" href="contactus.php">Contact
                                         Us</a>
