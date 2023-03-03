@@ -72,7 +72,7 @@
                                 <li class="normal-nav-items link"><a class="menu" href="business.php">Business
                                         Solution</a>
                                 </li>
-                                <li class="normal-nav-items link"><a class="menu" href="contactus.php">Membership</a>
+                                <li class="normal-nav-items link"><a class="menu" href="javascript:void(0)">Membership</a>
                                 </li>
                                 <li class="normal-nav-items link nav-item dropdown has-megamenu">
                                     <a class="nav-link dropdown-toggle" href="term-condition.php" data-bs-toggle="dropdown">
@@ -87,15 +87,15 @@
                                                             <div class="row">
                                                                 <div class="col-lg-12">
                                                                     <ul class="dropdown-third">
-                                                                        <li> <a href=""> Trade Show</a></li>
+                                                                        <li> <a href="javascript:void(0)"> Trade Show</a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </li>
-                                                    <li> <a href=""> Trade Show</a></li>
-                                                    <li> <a href=""> Awards</a></li>
-                                                    <li> <a href=""> Social Gatherings</a></li>
+                                                    <li> <a href="javascript:void(0)"> Trade Show</a></li>
+                                                    <li> <a href="javascript:void(0)"> Awards</a></li>
+                                                    <li> <a href="javascript:void(0)"> Social Gatherings</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -103,7 +103,7 @@
                                 </li>
                                 <li class="normal-nav-items link"><a class="menu" href="education.php">Education</a>
                                 </li>
-                                <li class="normal-nav-items link"><a class="menu" href="contactus.php">Contact
+                                <li class="normal-nav-items link"><a class="menu" href="javascript:void(0)">Contact
                                         Us</a>
                                 </li>
                             </ul>
