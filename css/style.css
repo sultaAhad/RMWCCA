@@ -294,6 +294,8 @@ li.phone a i {
 }
 li.phone a span {
 	color: #000000;
+	font-family: var(--regular-font-family);
+	font-size: 16px;
 }
 .img-dropdown {
 	display: flex;
@@ -766,4 +768,49 @@ section.contect-us {
 }
 section.straight-true-magazine {
 	padding: 90px 0 90px 0;
+}
+@media (max-width: 1366px) {
+	.navbar-items ul li a {
+		font-size: 13px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	.social-icon ul li a {
+		font-size: 14px;
+	}
+	li.phone a span {
+		font-size: 14px;
+	}
+	h4 {
+		font-size: 30px;
+	}
+	p {
+		font-family: var(--regular-font-family);
+		font-size: 14px;
+		line-height: 1.2;
+	}
+	.service-wrapper-detail p {
+		font-size: 12px;
+	}
+	.heading-main-service h3 {
+		font-size: 20px;
+		color: #fff;
+	}
+	.about-us-wrapper-img img {
+		height: 622px;
+		width: 100%;
+		object-fit: cover;
+	}
+	h6 {
+		font-family: var(--mediumpoppins-font-family);
+		font-size: 12px;
+		line-height: 1.2;
+	}
+	.central-service-img img {
+		height: 510px;
+	}
 }

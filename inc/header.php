@@ -67,7 +67,7 @@
                                 <li class="normal-nav-items link"><a class="menu " href="index.php">Home</a></li>
                                 <li class="normal-nav-items link"><a class="menu " href="about.php">About Us</a>
                                 </li>
-                                <li class="normal-nav-items link"><a class="menu" href="Services.php">Services</a>
+                                <li class="normal-nav-items link"><a class="menu" href="service.php">Services</a>
                                 </li>
                                 <li class="normal-nav-items link"><a class="menu" href="contactus.php">Business
                                         Solution</a>
@@ -77,8 +77,7 @@
                                 <li class="normal-nav-items link"><a class="menu" href="contactus.php">Membership</a>
                                 </li>
                                 <li class="normal-nav-items link nav-item dropdown has-megamenu">
-                                    <a class="nav-link dropdown-toggle" href="term-condition.php"
-                                        data-bs-toggle="dropdown">
+                                    <a class="nav-link dropdown-toggle" href="term-condition.php" data-bs-toggle="dropdown">
                                         Events
                                     </a>
                                     <div class="dropdown-menu megamenu" role="menu">
