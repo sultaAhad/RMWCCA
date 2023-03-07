@@ -124,4 +124,13 @@
             ],
         });
     });
+    // profile-wrapper
+    $("a.btn.green.profile-wrapper-btn").click(function() {
+        $(".my-profile-wrapper1").css("display", "block");
+        $(".my-profile-wrapper").css("display", "none");
+    });
+    $("a.dropdown-main-img").click(function() {
+        $(".dropdown-img").toggle();
+        $(this).css("display", "block");
+    });
 </script>

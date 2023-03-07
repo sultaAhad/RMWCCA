@@ -1,0 +1,94 @@
+.main-tabs .nav-bar-tabs {
+	background: #f5f6f6;
+	padding: 20px 20px;
+	border-radius: 20px;
+	margin-top: 110px;
+}
+.main-tabs .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #262626;
+	background-color: transparent;
+	font-family: "Poppins-Bold";
+}
+.nav-link {
+	color: #262626;
+	font-family: "Poppins-Medium";
+	font-size: 20px;
+	text-align: start;
+}
+.nav-link:hover {
+	color: #262626 !important;
+}
+.main-tabs img {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 242px;
+	object-fit: cover;
+}
+.profile-form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+section.profile {
+	padding: 110px 0;
+}
+.my-profile-wrapper .form-control::placeholder {
+	margin-bottom: 20px;
+	font-family: "Poppins-Regular";
+	font-size: 16px;
+	color: #6c757d;
+}
+.my-profile-wrapper input#exampleFormControlInput1 {
+	border: none;
+	border-bottom: 2px solid #c0c1c1;
+	border-radius: 0;
+	background: transparent;
+}
+.my-profile-wrapper label.form-label {
+	font-family: "Poppins-Regular";
+	font-size: 14px;
+	color: #242424;
+	margin: 0;
+}
+.my-profile-wrapper h4 {
+	color: #004d25;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.main-profile-wrapper {
+	background: #f5f6f6;
+	padding: 30px 50px 40px 50px;
+	border-radius: 20px;
+	margin-top: 16px;
+}
+.profile-form h3 {
+	color: #004d25;
+}
+.form-control:focus {
+	box-shadow: none !important;
+}
+
+.my-profile-wrapper1 h4 {
+	color: #004d25;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.form-control input {
+	margin-bottom: 20px;
+	padding: 10px 18px;
+}
+.form-control::placeholder {
+	margin-bottom: 20px;
+	font-family: "Poppins-Regular";
+	font-size: 16px;
+	color: #6c757d;
+}
+.my-profile-wrapper1 {
+	display: none;
+}
+.profile-edit-wrapper input#exampleFormControlInput1 {
+	height: 50px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}

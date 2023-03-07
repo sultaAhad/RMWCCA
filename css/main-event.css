@@ -1,0 +1,27 @@
+h4.event-heading {
+	color: #025043;
+	padding: 100px 0 40px 0px;
+}
+h4.event-heading1 {
+	color: #025043;
+	padding: 60px 0 20px 0px;
+}
+.event-heading-constant {
+	font-size: 20px;
+	color: #025043;
+	padding: 20px 0;
+}
+.event-card {
+	box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 60%);
+	-webkit-box-shadow: 1px 1px 8px 0px rgb(59 49 49 / 14%);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(59, 49, 49, 0.6);
+	border-radius: 20px;
+	background: #fff;
+	position: relative;
+}
+.event-card img {
+	border-radius: 20px 20px 0px 0px;
+	height: 343px;
+	width: 100%;
+	object-fit: cover;
+}

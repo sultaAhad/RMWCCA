@@ -1,0 +1,208 @@
+/* main-membership start */
+.membership-overview {
+	text-align: center;
+	background: #f5f6f6;
+	border-radius: 20px;
+	margin-top: 40px;
+	padding: 30px 60px;
+}
+.membership-overview p {
+	line-height: 1.5;
+}
+.membership-overview h3 {
+	color: #004d25;
+	margin-bottom: 20px;
+}
+.member-pricing h3 {
+	color: #004d25;
+}
+.member-pricing span.dollar {
+	font-family: var(--bold-font-family);
+	font-size: 20px;
+	color: #000000;
+	padding: 0 10px;
+}
+.member-pricing ul li h6 {
+	font-size: 18px;
+}
+.member-pricing {
+	margin-top: 30px;
+}
+.member-pricing.top-pricing {
+	margin-top: 30px;
+}
+.member-pricing ul li h6 i.fa.fa-angle-double-right {
+	color: #004d25;
+}
+.benifit-membership-content {
+	background: linear-gradient(
+		180deg,
+		rgba(28, 116, 104, 1) 1%,
+		rgba(25, 79, 72, 1) 77%
+	);
+}
+.benifit-membership-content h5 {
+	font-size: 25px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.benifit-membership-content {
+	padding: 40px 40px 30px 50px;
+	border-radius: 20px;
+	position: relative;
+	margin: 50px 0;
+}
+.benifit-membership-content ul li {
+	color: #ffffff;
+	line-height: 1.6;
+	list-style: disc;
+	margin-left: 20px;
+}
+.benifit-membership-content h5 {
+	font-size: 25px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.benifit-membership-content-btn {
+	margin: 30px 0;
+}
+.benifit-membership-content-btn .btn {
+	width: 200px;
+}
+section.main-membership {
+	padding-bottom: 50px;
+}
+/* main-membership end */
+/* membership membership-contect-us start */
+.form-contect-wrapper select.form-select {
+	/* padding: 10px 18px; */
+	margin-bottom: 20px;
+	padding: 10px 18px;
+}
+h3.membership-contectus-heading {
+	color: #004d25;
+	margin-bottom: 30px;
+}
+.membership-main-form {
+	background: #dbe6e5;
+	padding: 40px 100px;
+	border-radius: 10px;
+}
+section.cotect-us-member {
+	padding: 90px 0 90px 0;
+}
+/* membership membership-contect-us end */
+/* payment membership start */
+.Membership-doller {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #c5c5c5;
+	padding-bottom: 10px;
+}
+.debit-wrapper h6 {
+	font-size: 19px;
+}
+.contect-payment h6 {
+	font-family: "Poppins-Bold";
+	font-size: 20px;
+}
+.flex-doller h5 {
+	font-family: "Poppins-Medium";
+	font-size: 15px;
+	margin: 0;
+}
+.flex-doller h6 {
+	font-family: "Poppins-Regular";
+	font-size: 13px;
+	color: #b1b1b1;
+}
+.Membership-doller h4 {
+	font-family: "Poppins-SemiBold";
+	font-size: 18px;
+}
+.debit-wrapper {
+	padding: 15px 10px;
+	background: #f5f6f6;
+	width: 40%;
+	vertical-align: middle;
+	margin: 0;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+.add-credit-form {
+	background: #f5f6f6;
+	padding: 30px 50px;
+	border-radius: 0px 10px 10px 10px;
+	height: 210px;
+}
+.contect-payment {
+	margin-bottom: 30px;
+}
+.Membership-total {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.Membership-total h6 {
+	font-family: "Poppins-Bold";
+	font-size: 20px;
+}
+.Membership-total h4 {
+	font-family: "Poppins-Medium";
+	font-size: 20px;
+}
+.para-img1.payment-btn {
+	display: flex;
+	align-items: end;
+	justify-content: end;
+	flex-direction: column;
+	margin: 30px 0px;
+}
+.payment-detail {
+	margin-top: 30px;
+}
+.modal-header {
+	border-bottom: none;
+}
+.modal-footer {
+	border-top: none;
+}
+.modal-footer {
+	border-top: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.modal-footer a.btn.green {
+	height: 41px;
+	font-size: 16px;
+	width: 40%;
+}
+.modal-content {
+	background-image: url(../img/background-modal.png);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	border-radius: 20px;
+	border: none;
+	padding: 20px 0;
+}
+.modal-body h5 {
+	font-family: "Poppins-Medium";
+	font-size: 21px;
+}
+.modal-dialog {
+	max-width: 590px;
+	margin: 1.75rem auto;
+}
+h3.membership-contectus-heading1 {
+	color: #004d25;
+	margin-bottom: 10px;
+}
+button.btn-close {
+	display: none;
+}
+.modal-body {
+	padding: 0;
+}

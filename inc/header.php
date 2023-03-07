@@ -33,7 +33,7 @@
                                             </a>
                                             <div class="dropdown-img">
                                                 <ul>
-                                                    <li><a href="">My profile</a> </li>
+                                                    <li><a href="profile.php">My profile</a> </li>
                                                     <li><a href="">Security </a></li>
                                                     <li><a href="">Mambership</a> </li>
                                                     <li><a href="">Registered Events </a></li>
@@ -72,7 +72,7 @@
                                 <li class="normal-nav-items link"><a class="menu" href="business.php">Business
                                         Solution</a>
                                 </li>
-                                <li class="normal-nav-items link"><a class="menu" href="javascript:void(0)">Membership</a>
+                                <li class="normal-nav-items link"><a class="menu" href="main-membership.php">Membership</a>
                                 </li>
                                 <li class="normal-nav-items link nav-item dropdown has-megamenu">
                                     <a class="nav-link dropdown-toggle" href="term-condition.php" data-bs-toggle="dropdown">
@@ -82,7 +82,7 @@
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <ul class="dropdown-second">
-                                                    <li class="third-main"> Events</button>
+                                                    <li class="third-main"> <a href="main-event.php"> Events </a></button>
                                                         <div class="third-dropdown">
                                                             <div class="row">
                                                                 <div class="col-lg-12">
