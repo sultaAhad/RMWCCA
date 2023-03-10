@@ -80,7 +80,8 @@
                             <option value="1/6">1/6</option>
                         </select>
                         <input type="button" name="previous" class="previous action-button" value="Previous" />
-                        <input type="submit" name="submit" class="submit action-button" value="Submit" id="form-submit" />
+                        <input type="submit" name="submit" class="submit action-button" value="Submit"
+                            id="form-submit" />
                     </fieldset>
 
                 </form>
