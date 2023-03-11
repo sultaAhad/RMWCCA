@@ -12,7 +12,42 @@
 }
 section.signup-step-container {
 	position: relative;
-	padding-top: 50px;
+	padding-top: 110px;
+	padding-bottom: 160px;
+}
+a.next.btn.green {
+	width: 13%;
+	margin: 19px 0;
+	height: 40px;
+}
+h3.membership-contectus-heading {
+	text-align: start;
+	margin: 10px 0 30px 0;
+	color: #004d25;
+}
+.form-outline input {
+	margin-bottom: 20px;
+	padding: 10px 18px;
+}
+.form-select {
+	margin-bottom: 20px;
+	font-family: "Poppins-Regular";
+	font-size: 16px;
+	color: #6c757d;
+}
+.form-outline input::placeholder {
+	margin-bottom: 20px;
+	font-family: "Poppins-Regular";
+	font-size: 16px;
+	color: #6c757d;
+}
+.form-select {
+	margin-bottom: 20px;
+	font-family: "Poppins-Regular";
+	font-size: 16px;
+	color: #6c757d;
+	margin-bottom: 20px;
+	padding: 10px 18px;
 }
 /*form styles*/
 #msform {
@@ -20,7 +55,7 @@ section.signup-step-container {
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
-	/* height: 100vh; */
+	height: 210vh;
 }
 .fs-title {
 	font-size: 15px;
@@ -28,40 +63,29 @@ section.signup-step-container {
 	color: #222;
 	margin-bottom: 10px;
 	position: top;
-	position: absolute;
-	top: -43px;
+	position: relative;
 	right: 0;
 	left: 0;
+	top: -220px;
 }
 #msform fieldset {
-	background: white;
+	background: #f5f6f6;
 	border: 0 none;
 	border-radius: 3px;
-	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-	padding: 20px 30px;
+	padding: 30px 30px;
 	box-sizing: border-box;
 	width: 80%;
-	margin: 0 10%;
-	/* position: absolute; */
+	margin: 40px 10%;
+	position: absolute;
+	/* height: 100%; */
+	border-radius: 20px;
 }
 /*Hide all except first fieldset*/
 #msform fieldset:not(:first-of-type) {
 	display: none;
 }
 /*inputs*/
-#msform input,
-#msform textarea,
-#msform select {
-	padding: 15px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	margin-bottom: 10px;
-	width: 100%;
-	box-sizing: border-box;
-	font-family: montserrat;
-	color: #222;
-	font-size: 13px;
-}
+
 /*buttons*/
 #msform .action-button {
 	width: 100px;
@@ -80,10 +104,10 @@ section.signup-step-container {
 }
 /*headings*/
 .fs-title {
-	font-size: 15px;
+	font-size: 35px;
 	text-transform: uppercase;
-	color: #222;
-	margin-bottom: 10px;
+	color: #004d25;
+	margin-bottom: 0px;
 }
 .fs-subtitle {
 	font-weight: normal;
@@ -95,7 +119,7 @@ section.signup-step-container {
 #progressbar {
 	margin-bottom: 30px;
 	overflow: hidden;
-	/* counter-reset: step; */
+	counter-reset: step;
 	display: flex;
 }
 #progressbar li {
@@ -107,28 +131,50 @@ section.signup-step-container {
 	float: left;
 	position: relative;
 }
-#progressbar li:before {
-	content: counter(step);
-	counter-increment: step;
-	width: 20px;
-	line-height: 20px;
-	display: block;
-	font-size: 10px;
-	color: #fff;
-	background: #222;
-	border-radius: 3px;
-	margin: 0 auto 5px auto;
+#progressbar li h6 {
+	margin-top: 30px;
+	font-family: "EUROSTILE-LT-BOLD";
+	color: #f5f6f6;
+	font-size: 17px;
+}
+#progressbar li.active h6 {
+	margin-top: 30px;
+	font-family: "EUROSTILE-LT-BOLD";
+	color: #004d25;
+	font-size: 17px;
 }
 /*progressbar connectors*/
 #progressbar li:after {
 	content: "";
-	width: 100%;
-	height: 2px;
-	background: #222;
+	width: 0%;
+	height: 5px;
+	background: #f5f6f6;
 	position: absolute;
 	left: -50%;
 	top: 9px;
-	z-index: -1; /*put it behind the numbers*/
+	z-index: -1;
+	/* border-radius: 10px; */
+	transition: 1s all;
+}
+#progressbar li:before {
+	content: "";
+	width: 100%;
+	height: 5px;
+	background: #f5f6f6;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1;
+	/* border-radius: 10px; */
+	transition: 1s all;
+}
+#progressbar li.start:before {
+	width: 0%;
+	content: "";
+}
+#progressbar li.start:after {
+	border-radius: 10px;
+	content: "";
 }
 #progressbar li:first-child:after {
 	/*connector not needed before the first step*/
@@ -136,8 +182,84 @@ section.signup-step-container {
 }
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
-#progressbar li.active:before,
 #progressbar li.active:after {
-	background: #da4453;
-	color: white;
+	background: #025043;
+	color: #000;
+	width: 100%;
+}
+.pricing-heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pricing-heading h3.membership-contectus-heading {
+	margin: 10px 0;
+}
+.pricing-heading p {
+	padding: 0px 0px;
+	line-height: 1.5;
+}
+.pricing-heading p span {
+	font-family: "poppins-Semibold";
+	color: #110000;
+}
+h4.select-booth {
+	font-family: "poppins-regular";
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	margin: 0;
+	color: #6c757d;
+}
+.select-wrapper select.form-select {
+	font-size: 13px;
+	margin: 0;
+}
+.select-wrapper {
+	border: 1px solid #707070;
+	border-radius: 10px;
+	padding: 40px 30px;
+	background: #fff;
+}
+/*--------------------------*/
+.qty-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.qty-container .input-qty {
+	text-align: center;
+	padding: 6px 10px;
+	border: 1px solid #d4d4d4;
+	max-width: 80px;
+}
+.qty-container .qty-btn-minus,
+.qty-container .qty-btn-plus {
+	border: 1px solid #d4d4d4;
+	padding: 10px 13px;
+	font-size: 10px;
+	height: 38px;
+	width: 38px;
+	transition: 0.3s;
+}
+.qty-container .qty-btn-plus {
+	margin-left: -1px;
+}
+.qty-container .qty-btn-minus {
+	margin-right: -1px;
+}
+
+/*---------------------------*/
+.btn-cornered,
+.input-cornered {
+	border-radius: 4px;
+}
+.btn-rounded {
+	border-radius: 50%;
+}
+.input-rounded {
+	border-radius: 50px;
 }
