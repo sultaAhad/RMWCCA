@@ -45,78 +45,67 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="First Name"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="First Name" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="Last Name"
-                                                        class="form-control" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-outline ">
-                                                    <input type="email" id="form1Example1" placeholder="Email Address"
-                                                        class="form-control" />
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-outline ">
-                                                    <input type="number" id="form1Example1" placeholder="Contact Number"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="Last Name" class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1"
-                                                        placeholder="Person To Receive Mailings" class="form-control" />
+                                                    <input type="email" id="form1Example1" placeholder="Email Address" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="number" id="form1Example1" placeholder="Fax Number"
-                                                        class="form-control" />
+                                                    <input type="number" id="form1Example1" placeholder="Contact Number" class="form-control" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-outline ">
+                                                    <input type="text" id="form1Example1" placeholder="Person To Receive Mailings" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-outline ">
+                                                    <input type="number" id="form1Example1" placeholder="Fax Number" class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="Address Line 1"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="Address Line 1" class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="Address Line 2"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="Address Line 2" class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-3">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="City"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="City" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="State"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="State" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="form-outline ">
-                                                    <input type="number" id="form1Example1" placeholder="Zip Code"
-                                                        class="form-control" />
+                                                    <input type="number" id="form1Example1" placeholder="Zip Code" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
@@ -144,28 +133,24 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="Company Name"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="Company Name" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form1Example1" placeholder="Company Phone"
-                                                        class="form-control" />
+                                                    <input type="text" id="form1Example1" placeholder="Company Phone" class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="email" id="form1Example1" placeholder="Company Logo"
-                                                        class="form-control" />
+                                                    <input type="email" id="form1Example1" placeholder="Company Logo" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-outline ">
-                                                    <input type="number" id="form1Example1"
-                                                        placeholder="Company Website Link" class="form-control" />
+                                                    <input type="number" id="form1Example1" placeholder="Company Website Link" class="form-control" />
                                                 </div>
                                             </div>
                                         </div>
@@ -174,8 +159,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a type="button" name="next" class="next btn green" value="Next">next <span> <i
-                                    class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <a type="button" name="next" class="next btn green" value="Next">next <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </span></a>
                     </fieldset>
                     <fieldset>
@@ -183,9 +167,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-outline ">
-                                    <input type="text" id="form1Example1"
-                                        placeholder="What Other Industries Do You Sell So We (RMWCCA) Can Invite Them To The Trade Show?"
-                                        class="form-control" />
+                                    <input type="text" id="form1Example1" placeholder="What Other Industries Do You Sell So We (RMWCCA) Can Invite Them To The Trade Show?" class="form-control" />
                                 </div>
                             </div>
                         </div>
@@ -201,7 +183,46 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="select-wrapper">
-                                    <div class="row">
+                                    <div class="row ps-4 ">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">1st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3">
+                                        <div class="col-lg-3">
+                                            <h4 class="select-booth">Select Booth Choice</h4>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 1</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 2</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 3</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row ps-4">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">2st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3 ">
                                         <div class="col-lg-3">
                                             <h4 class="select-booth">Select Booth Choice</h4>
                                         </div>
@@ -233,7 +254,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
+                        <div class="row mt-4">
                             <div class="col-lg-6  mx-auto text-center">
                                 <div class="pricing-heading">
                                     <h3 class="membership-contectus-heading">Additional Booth</h3>
@@ -244,29 +265,326 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-10">
-                                <div class="qty-container">
-                                    <button class="qty-btn-minus btn-cornered" type="button"><i
-                                            class="fa fa-chevron-left"></i></button>
-                                    <input type="text" name="qty" value="0" class="input-qty input-cornered" />
-                                    <button class="qty-btn-plus btn-cornered" type="button"><i
-                                            class="fa fa-chevron-right"></i></button>
+                            <div class="col-lg-12">
+                                <div class="select-wrapper">
+                                    <div class="row d-flex justify-content-center mx-auto align-items-center mb-4">
+                                        <div class="col-lg-5">
+                                            <h6 class="many-additional">How Many Additional Booths Required </h6>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="number">
+                                                <div class="qty-box">
+                                                    <div class="quantity">
+                                                        <input type="number" min="1" max="100" step="1" value="1">
+                                                        <!-- <div class="quantity-nav">
+                                                <button class="quantity-button quantity-up"><i class="fa fa-chevron-up" aria-hidden="true"></i>
+                                                </button>
+                                                <button class="quantity-button quantity-down"><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </button>
+                                            </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row ps-4 ">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">1st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3">
+                                        <div class="col-lg-3">
+                                            <h4 class="select-booth">Select Booth Choice</h4>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 1</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 2</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 3</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row ps-4">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">2st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3 ">
+                                        <div class="col-lg-3">
+                                            <h4 class="select-booth">Select Booth Choice</h4>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 1</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 2</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 3</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <input type="button" name="previous" class="previous action-button" value="Previous" />
-                        <input type="button" name="next" class="next action-button" value="Next" />
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="total-cost-wrapper">
+                                    <div class="total-cost">
+                                        <h5>Total Cost</h5>
+                                    </div>
+                                    <div class="cost-total-final">
+                                        <h4>$2540</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <input type="button" name="previous" class="previous action-button" value="Previous" /> -->
+                        <a type="button" name="next" class="next btn green" value="Next">next <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </span></a>
                     </fieldset>
                     <fieldset>
-                        <h2 class="fs-title"> Booth Reservation </h2>
-                        <h3 class="fs-subtitle">Last Step</h3>
-                        <input type="text" name="fname" placeholder="First Name" />
-                        <input type="text" name="lname" placeholder="Last Name" />
-                        <input type="text" name="phone" placeholder="Phone" />
-                        <input type="text" name="email" placeholder="E-mail" />
-                        <!--<textarea name="address" placeholder="Address"></textarea>-->
-                        <input type="button" name="previous" class="previous action-button" value="Previous" />
-                        <input type="button" name="next" class="next action-button" value="Next" />
+                        <h2 class="fs-title">Booth Reservation</h2>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-outline ">
+                                    <input type="text" id="form1Example1" placeholder="What Other Industries Do You Sell So We (RMWCCA) Can Invite Them To The Trade Show?" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5  mx-auto text-center">
+                                <div class="pricing-heading">
+                                    <h3 class="membership-contectus-heading">Standard Booths</h3>
+                                    <p>The Pricing Structure for Non-Members
+                                        The First Booth Will Be Of <span> $800 </span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="select-wrapper">
+                                    <div class="row ps-4 ">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">1st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3">
+                                        <div class="col-lg-3">
+                                            <h4 class="select-booth">Select Booth Choice</h4>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 1</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 2</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 3</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row ps-4">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">2st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3 ">
+                                        <div class="col-lg-3">
+                                            <h4 class="select-booth">Select Booth Choice</h4>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 1</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 2</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 3</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-6  mx-auto text-center">
+                                <div class="pricing-heading">
+                                    <h3 class="membership-contectus-heading">Additional Booth</h3>
+                                    <p>Each Additional Booth Will Be Of <span> $1140 </span>
+                                        Fusce laoreet mauris sit amet venenatis cursus. Fusce quis libero orci.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="select-wrapper">
+                                    <div class="row d-flex justify-content-center mx-auto align-items-center mb-4">
+                                        <div class="col-lg-5">
+                                            <h6 class="many-additional">How Many Additional Booths Required </h6>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="number">
+                                                <div class="qty-box">
+                                                    <div class="quantity">
+                                                        <input type="number" min="1" max="100" step="1" value="1">
+                                                        <!-- <div class="quantity-nav">
+                                                <button class="quantity-button quantity-up"><i class="fa fa-chevron-up" aria-hidden="true"></i>
+                                                </button>
+                                                <button class="quantity-button quantity-down"><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                </button>
+                                            </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row ps-4 ">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">1st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3">
+                                        <div class="col-lg-3">
+                                            <h4 class="select-booth">Select Booth Choice</h4>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 1</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 2</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 3</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row ps-4">
+                                        <div class="col-lg-12">
+                                            <h5 class="booth-hading">2st Booth</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3 mb-3 ">
+                                        <div class="col-lg-3">
+                                            <h4 class="select-booth">Select Booth Choice</h4>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 1</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 2</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select Booth Location 3</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="total-cost-wrapper">
+                                    <div class="total-cost">
+                                        <h5>Total Cost</h5>
+                                    </div>
+                                    <div class="cost-total-final">
+                                        <h4>$2540</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <input type="button" name="previous" class="previous action-button" value="Previous" /> -->
+                        <a type="button" name="next" class="next btn green" value="Next">next <span> <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </span></a>
                     </fieldset>
                     <fieldset>
                         <h2 class="fs-title">Sponsorship & Advertising</h2>
@@ -293,8 +611,7 @@
                             <option value="1/6">1/6</option>
                         </select>
                         <input type="button" name="previous" class="previous action-button" value="Previous" />
-                        <input type="submit" name="submit" class="submit action-button" value="Submit"
-                            id="form-submit" />
+                        <input type="submit" name="submit" class="submit action-button" value="Submit" id="form-submit" />
                     </fieldset>
                 </form>
             </div>

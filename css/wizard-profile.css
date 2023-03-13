@@ -13,7 +13,7 @@
 section.signup-step-container {
 	position: relative;
 	padding-top: 110px;
-	padding-bottom: 160px;
+	padding-bottom: 80px;
 }
 a.next.btn.green {
 	width: 13%;
@@ -55,7 +55,7 @@ h3.membership-contectus-heading {
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
-	height: 210vh;
+	height: 100%;
 }
 .fs-title {
 	font-size: 15px;
@@ -76,8 +76,8 @@ h3.membership-contectus-heading {
 	box-sizing: border-box;
 	width: 80%;
 	margin: 40px 10%;
-	position: absolute;
-	/* height: 100%; */
+	position: relative;
+	height: 87%;
 	border-radius: 20px;
 }
 /*Hide all except first fieldset*/
@@ -224,42 +224,141 @@ h4.select-booth {
 	padding: 40px 30px;
 	background: #fff;
 }
-/*--------------------------*/
-.qty-container {
+.number {
+	height: 41px;
+}
+.productCart .tableDv .qty {
+	width: 15%;
+	height: 81px;
+}
+.quantity {
+	position: relative;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.qty-container .input-qty {
-	text-align: center;
-	padding: 6px 10px;
-	border: 1px solid #d4d4d4;
-	max-width: 80px;
-}
-.qty-container .qty-btn-minus,
-.qty-container .qty-btn-plus {
-	border: 1px solid #d4d4d4;
-	padding: 10px 13px;
-	font-size: 10px;
-	height: 38px;
-	width: 38px;
-	transition: 0.3s;
-}
-.qty-container .qty-btn-plus {
-	margin-left: -1px;
-}
-.qty-container .qty-btn-minus {
-	margin-right: -1px;
+	gap: 10px;
 }
 
-/*---------------------------*/
-.btn-cornered,
-.input-cornered {
-	border-radius: 4px;
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
-.btn-rounded {
-	border-radius: 50%;
+
+input[type="number"] {
+	-moz-appearance: textfield;
 }
-.input-rounded {
-	border-radius: 50px;
+
+.quantity input {
+	width: 59px;
+	background: transparent;
+	float: left;
+	text-align: center;
+	display: block;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-size: 15px;
+	border-radius: 0;
+	border-radius: 6px;
+	border: 1px solid #e1e6eb;
+	color: #6c757d;
+}
+.quantity-button.quantity-up i {
+	font-size: 15px;
+	color: #000000;
+}
+.quantity-button.quantity-down i {
+	font-size: 15px;
+	color: #000000;
+}
+.quantity input:focus {
+	outline: 0 !important;
+}
+.quantity-nav {
+	display: flex;
+	/* height: 31px; */
+	flex-direction: column;
+	gap: 2px;
+}
+.quantity-button {
+	cursor: pointer;
+	/* margin: 0 16px; */
+	border: none;
+	width: 31px;
+	text-align: center;
+	color: #333;
+	font-size: 11px;
+	border: 1px solid #e1e6eb;
+	/* font-family: "FontAwesome" !important; */
+	background: transparent;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	border-radius: 6px;
+}
+.quantity-button:active {
+	background: #eaeaea;
+}
+
+.quantity-nav button:focus {
+	outline: none !important;
+}
+.quantity {
+	position: relative;
+	display: flex;
+	gap: 37px;
+}
+.qty-box {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	gap: 2px;
+}
+h6.many-additional {
+	font-family: "poppins-Semibold";
+	color: #6c757d;
+	font-size: 18px;
+	margin: 0;
+}
+h5.booth-hading {
+	color: #004d25;
+	text-align: left;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.total-cost h5 {
+	font-family: "EUROSTILE-LT-MEDIUM";
+	margin: 0;
+	font-size: 16px;
+	color: #ffffff;
+}
+.cost-total-final h4 {
+	font-family: "poppins-Semibold";
+	font-size: 20px;
+	margin: 0;
+}
+.cost-total-final {
+	padding: 10px 10px;
+}
+.total-cost {
+	background: #025043;
+	padding: 12px 11px;
+	border-radius: 8px;
+	border: 1px solid #2a8173;
+	/* border-left: none; */
+	/* height: 49px; */
+}
+.total-cost-wrapper {
+	border: 1px solid #2a8173;
+	width: 190px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	margin: 20px 0 10px 0px;
 }
